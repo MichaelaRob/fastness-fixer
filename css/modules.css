@@ -189,14 +189,6 @@ svg.img-flex {
   padding-top: 33.3333%; /* Panorama photos */
 }
 
-.embed-4by1, .embed--4by1 {
-  padding-top: 25%; /* Polyvision */
-}
-
-.embed-5by1, .embed--5by1 {
-  padding-top: 20%; /* Really wide... */
-}
-
 .embed-item, .embed__item {
   min-height: 100%;
   left: 0;
@@ -205,57 +197,8 @@ svg.img-flex {
   width: 100%;
 }
 
-[hidden], .hidden {
-  /* stylelint-disable declaration-no-important */
-  display: none !important;
-  visibility: hidden !important;
-  /* stylelint-enable */
-}
-
-.visually-hidden {
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  border: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-}
-
-.visually-hidden.focusable:active, .visually-hidden.focusable:focus {
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-  clip: auto;
-  clip-path: none;
-}
-
 .invisible {
   visibility: hidden;
-}
-
-.chop,
-.crop {
-  overflow: hidden;
-}
-
-.truncate {
-  max-width: 100%;
-  overflow: hidden;
-  width: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.scrollable {
-  max-width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .clearfix::after {
@@ -280,27 +223,6 @@ svg.img-flex {
 .center-block {
   margin-left: auto;
   margin-right: auto;
-}
-
-.center-content,
-.center-content-vertical,
-.center-contents,
-.center-contents-vertical {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-flex-direction: column wrap;
-  -ms-flex-direction: column wrap;
-  flex-flow: column wrap;
 }
 
 .inline {
